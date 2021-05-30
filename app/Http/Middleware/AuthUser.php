@@ -18,8 +18,9 @@ class AuthUser
     {
          if($request->path()=="login" && $request->session()->has('user'))
          {
-            return redirect('/');
+            return redirect('/dashboard');
          }
+          
          return $next($request);
     }
 }

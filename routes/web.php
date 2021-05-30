@@ -31,4 +31,4 @@ Route::post('/register',[UserController::class,'registerUsers']);
 Route::post('/login',[UserController::class,'loginUser']);
 
 //Rout for dashboard
-Route::get('/',[dashboardController::class,'dashboardArea']);
+Route::get('/dashboard',[dashboardController::class,'dashboardArea']);

@@ -45,7 +45,7 @@ class UserController extends Controller
             else{
                 //Store user detail in the session manager
                 $req->session()->put('user',$user);
-                return redirect('/');
+                return redirect('/dashboard');
             }
         }
     }

@@ -9,6 +9,6 @@ class dashboardController extends Controller
     //
 
     function dashboardArea(){
-        return "Welcome to your dashboard";
+        return view('/dashboard');
     }
 }

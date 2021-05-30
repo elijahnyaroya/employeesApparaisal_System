@@ -1,8 +1,5 @@
 @extends('master')
 @section('content') 
-<?php 
-
-?>
 
 <div class="container register">
                 <div class="row">
